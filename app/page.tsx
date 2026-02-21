@@ -1,7 +1,11 @@
-import Image from "next/image";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 export default function Home() {
   return (
-    <main className="text-center font-semibold text-amber-500">Hello</main>
+    <main className="grid   gap-4 p-4 grid-cols-[220px_1fr]">
+      <Sidebar />
+      <Dashboard />
+    </main>
   );
 }

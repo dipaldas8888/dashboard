@@ -1,10 +1,13 @@
 import React from "react";
+import AccountToggle from "./AccountToggle";
 
 const Sidebar = () => {
   return (
-    <aside className="">
-      Sidebar
-    </aside>
+    <div>
+      <div className="overflow-y-scroll sticky top-4 h-[calc(100vh-32px-49px)]">
+        <AccountToggle/>
+    </div>
+    </div>
   );
 };
 

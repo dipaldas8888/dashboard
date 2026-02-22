@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaChevronDown,FaChevronUp } from 'react-icons/fa'
+import { FiChevronDown } from 'react-icons/fi'
 
 const AccountToggle = () => {
   return (
@@ -8,8 +10,9 @@ const AccountToggle = () => {
             <div className='text-start'>
               <span className='text-sm font-bold block'>Dipal Das</span>
               <span className='text-xs block text-stone-500'>dipal@hover.dev</span>
-
+              
             </div>
+          
         </button>
     </div>
   )

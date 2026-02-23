@@ -4,9 +4,10 @@ import {Grid} from "./Grid"
 
 const Dashboard = () => {
   return (
-    <section className="bg-white rounded-lg pb-4 shadow h-[200vh]">
+    <section className="bg-white rounded-lg pb-4 shadow">
       <TopBar/>
       <Grid/>
+      
     </section>
   );
 };
